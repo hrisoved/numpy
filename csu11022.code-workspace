@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+		  "path": ".",
+		  "name": "CSU11022-2021-2022"
+		}
+  	],
+	"extensions": {
+		"recommendations": [
+		  "dan-c-underwood.arm",
+		  "marus25.cortex-debug",
+		  "marus25.cortex-debug-dp-stm32f4"
+		]
+	},
+	"settings": {
+		// SCSS Lab Computer Settings
+		// These default settings only work in an SCSS Computer Lab
+		// There is no need to change them
+		"cortex-debug.armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin",
+		"qemu-system-arm": "S:/csu11021/xpack-qemu-arm-2.8.0-12/bin/qemu-system-gnuarmeclipse"
+
+		//
+		// Windows settings for your own computer
+		//   1. Remove the // before the two lines containing "cortex-debug"
+		//      and "qemu-system-arm" below.
+		//   2. Add // before the two similar lines above.
+		//   3. Replace username with your usename on your Windows PC.
+		//   4. If you installed the GNU ARM Toolchain or QEMU to a different
+		//      location (e.g. if you installed a newer version), you will
+		//      need to change that too.
+		//
+		// "cortex-debug.armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/bin",
+		// "qemu-system-arm": "C:/Users/username/AppData/Roaming/xPacks/xpack-qemu-arm-2.8.0-12/bin/qemu-system-gnuarmeclipse"
+
+		//
+		// MacOS settings for your own computer
+		//   1. Remove the // before the two lines containing "cortex-debug"
+		//      and "qemu-system-arm" below.
+		//   2. Add // before the two similar lines above.
+		//   3. Replace username with your usename on your Mac.
+		//   4. If you installed QEMU to a different location (e.g. if you
+		//      installed a newer version), you will need to change that too.
+		//
+		// "cortex-debug.armToolchainPath": "/Applications/ARM/bin",
+		// "qemu-system-arm": "/Users/username/opt/xpack-qemu-arm-2.8.0-12/bin/qemu-system-gnuarmeclipse"
+	}
+}
