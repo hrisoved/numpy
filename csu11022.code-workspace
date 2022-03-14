@@ -16,8 +16,8 @@
 		// SCSS Lab Computer Settings
 		// These default settings only work in an SCSS Computer Lab
 		// There is no need to change them
-		"cortex-debug.armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin",
-		"qemu-system-arm": "S:/csu11021/xpack-qemu-arm-2.8.0-12/bin/qemu-system-gnuarmeclipse"
+		//"cortex-debug.armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin",
+		//"qemu-system-arm": "S:/csu11021/xpack-qemu-arm-2.8.0-12/bin/qemu-system-gnuarmeclipse"
 
 		//
 		// Windows settings for your own computer
@@ -29,8 +29,9 @@
 		//      location (e.g. if you installed a newer version), you will
 		//      need to change that too.
 		//
-		// "cortex-debug.armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/bin",
-		// "qemu-system-arm": "C:/Users/username/AppData/Roaming/xPacks/xpack-qemu-arm-2.8.0-12/bin/qemu-system-gnuarmeclipse"
+		"cortex-debug.armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin",
+		"qemu-system-arm": "C:/Users/Diane/AppData/Roaming/xPacks/xpack-qemu-arm-6.2.0-1/bin/qemu-system-gnuarmeclipse"
+		// "cortex-debug.registerUseNaturalFormat": true,
 
 		//
 		// MacOS settings for your own computer

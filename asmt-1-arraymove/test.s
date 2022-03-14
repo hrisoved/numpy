@@ -19,6 +19,8 @@ Init_Test:
   LDR     R0, =array      @ start address of array
   LDR     R1, =3          @ move element from this index
   LDR     R2, =6          @ move element to this index
+  //LDR     R3, =count_array@ size of array
+  
 
   LDMFD   SP!, {R4-R7, PC}
 
