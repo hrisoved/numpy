@@ -32,16 +32,16 @@ End_Main:
 upr:
 .LwhUpr:   
   LDRB    R4, [R0], #1      @ char = byte[address++]
-  CMP     R4, #0  	        @ while ( char != 0 )
-  BEQ     .LeWhUpr  	      @ {
+  CMP     R4, #0            @ while ( char != 0 )
+  BEQ     .LeWhUpr          @ {
   CMP     R4, #'a'          @  if (char >= 'a'
-  BLO     .LeIfLwr  	      @      &&
+  BLO     .LeIfLwr          @      &&
   CMP     R4, #'z'          @      char <= 'z')
-  BHI     .LeIfLwr  	      @	 {
+  BHI     .LeIfLwr          @	 {
   BIC     R4, #0x00000020   @   char = char AND NOT 0x00000020
   STRB    R4, [R0, #-1]     @   byte[address - 1] = char
 .LeIfLwr:                   @	 }
-  B       .LwhUpr   			  @ }
+  B       .LwhUpr           @ }
 .LeWhUpr:                   @
 
   BX      LR
